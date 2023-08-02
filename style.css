@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+
+}
+
+.mon {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+:root {}
+
+.line-chat-sm {
+    display: flex;
+    width: 50px;
+    color: #C2C2C2;
+    border: 2px solid rgba(128, 128, 128, 0.444);
+    border-radius: 20px;
+}
+
+.container-center-chat {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+    height: 100%;
+    margin-top: 10px; 
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    height: 95vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid #EEEEEE;
+
+    padding: 10px 20px;
+    position: relative;
+}
+
+.flex-chat-video-line {
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.left-icon {
+    display: flex;
+
+    text-align: left;
+    align-items: center;
+    height: 20px;
+    height: 100%;
+}
+
+.center-text-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chat-right-icon {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+#icon {
+    display: flex;
+    width: 30px;
+    height: 100%;
+    padding: 5px 0;
+}
+
+#dot {
+    width: 30px;
+    height: 29px;
+
+}
+
+.right-icon {
+    display: flex;
+
+    align-items: end;
+    justify-content: end;
+}
+
+.height-first-row {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.recver-text>a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.recver-text>a {
+
+    text-decoration: none;font-size: 12px;
+}
+.recver-text {
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+    position: relative;
+    background-color: #EEEEEE;
+    width: 100%;
+    margin: 16px 9px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+
+#recv-icon-img {
+    width: 18px;
+    height: 18px;
+}
+
+.recv-icon {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 70%;
+    left: -25px;
+}
+
+#sender-icon-img {
+    width: 20px;
+    height: 17px;
+}
+
+.sender-icon {
+    display: flex;
+    width: 50px;
+    height: 10px;
+    position: absolute;
+    top: 80%;
+    left: 100%;
+
+}
+
+
+
+
+
+
+.time {
+
+    color: #aeaeae;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    font-size: 10px;
+
+}
+
+/* .recver-text::after {
+    content: '11:24';
+    position: absolute;
+    top:70px ;
+    right: 59px;
+    font-size: 10px;
+    left: 50%;
+    color: lightgray;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+/* .bg-grey{
+    background-color: 
+    #EEEEEE;
+} */
+
+/* .recv-text::after {
+    content: '3333';
+    position: absolute;
+    top: 31px;
+    right: 59px;
+    font-size: 10px;
+    left: 163px;
+    color: lightgray;
+} */
+
+
+
+
+
+.sender-text {
+    display: flex;
+}
+
+.sender-text-row {
+    display: flex;
+    justify-content: end;
+}
+
+/* .sender-img
+{
+    margin-top: 8%;
+    margin-right: 4px;
+    display: flex;
+    width: 10px;
+    height: 10px;
+} */
+.sender-text {
+    position: relative;
+    background: #F88F24;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+margin: 10px 0;
+    height: 100%;
+}
+
+.sender-text>a {
+    color: white;
+    text-decoration: none;font-size: 12px;
+}
+
+.container-flex-clm-send-area {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px 20px;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
+.text-input-area {
+    display: flex;
+
+    margin: 10px 20px;
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    left: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 10px;
+    border: 1px solid #cecdcd;
+    background-color: white;
+
+}
+
+input[type='text'] {
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    outline: 0;
+    background-color: white;
+    z-index: 33;
+    width: 100%;
+    background-color: white;
+    padding: 7px 10px;
+}
+
+
+
+
+#input-msg {
+    border: 0;
+    outline: 0;
+
+    background-color: white;
+
+
+}
